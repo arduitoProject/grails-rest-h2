@@ -16,6 +16,7 @@ class PersonController {
         [personInstanceList: Person.list(params), personInstanceTotal: Person.count()]
     }
 	
+	//lo agrego para mostrar personas como json
 	def personas = {
 		
 		def lista = Person.list()
